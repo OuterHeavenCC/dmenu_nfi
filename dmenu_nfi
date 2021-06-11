@@ -2,7 +2,7 @@
 
 # Script to quickly search for a nerd font icon with dmenu, and copy it to the clipboard
 
-NFI_PATH=~/.local/bin/nerdfonticons
+NFI_PATH=~/.local/share/larbs/nerdfonticons
 
 CHOSEN=$(cat $NFI_PATH | dmenu -c -l 30 -i | sed 's/\ .*//')
 
